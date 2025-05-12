@@ -1,0 +1,9 @@
+<h2 class="title">Car Marketplace</h2>
+
+<div class="car-list">
+  <div class="car-card" *ngFor="let car of cars">
+    <h3>{{ car.model }} {{ car.year }}</h3>
+    <p>{{ car.description }}</p>
+    <p class="price">{{ car.price }} USD</p>
+  </div>
+</div>
